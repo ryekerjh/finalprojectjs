@@ -65,12 +65,12 @@ form.addEventListener("submit", function (evt) {
         		checkbox.addEventListener("click", function(evt) {
         			if(this.checked) {
         				this.parentElement.classList.add("checked");
-        				li.appendChild(edit);
+        				li.removeChild(edit);
         				
         		} 
         		else {
         			this.parentElement.classList.remove("checked");
-        			li.removeChild(edit);
+                    li.appendChild(edit);
         			}
     			});
 
