@@ -68,10 +68,10 @@ form.addEventListener("submit", function (evt) {
         				li.removeChild(edit);
         				
         		} 
-        		else {
-        			this.parentElement.classList.remove("checked");
-                    li.appendChild(edit);
-        			}
+            		else {
+            			this.parentElement.classList.remove("checked");
+                        li.appendChild(edit);
+            			}
     			});
 
 
